@@ -29,7 +29,7 @@ end = dt.datetime.now()
 selected_stocks = st.text_input("Enter stock ticker", "AAPL")
 
 
-n_years = st.slider("Years of prediction: ", 1, 5)
+n_years = 1
 period = n_years*365
 
 @st.cache_data   #stores the data so doesn't have to reload
