@@ -23,7 +23,7 @@ st.markdown("", unsafe_allow_html=True)
 
 st.title("Make Predictions")
 
-start = "2015-01-01"
+start = "2010-01-01"
 end = dt.datetime.now()
 
 selected_stocks = st.text_input("Enter stock ticker", "AAPL")
